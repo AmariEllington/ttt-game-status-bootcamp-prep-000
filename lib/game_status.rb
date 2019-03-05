@@ -55,9 +55,9 @@ end
 end
 
   def winner (board)
-  i = []
-  i = won?(board)
-  if i == false
+  index = []
+  index = won?(board)
+  if index == false
     return nil
   else
     if board[index[0]] == "X"
