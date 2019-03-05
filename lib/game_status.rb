@@ -35,6 +35,5 @@ def won?(board)
 end
 
 def full?(board)
-  if WIN_COMBINATIONS == WIN_COMBINATIONS.inculde?(" ")
-    return "The board is not full"
+  WIN_COMBINATIONS.any?{|i| i == " "}
 end
