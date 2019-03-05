@@ -35,6 +35,5 @@ def won?(board)
 end
 
 def full?(board)
-  WIN_COMBINATIONS.any?{|i| i == " "}
-  return != true
+  board.all? {|i| i == "X" || i == "O"}
 end
