@@ -55,6 +55,17 @@ end
 end
 
 def winner
-  if position_1 == "X" && position_2 == "X" && position_3 == "X"
-    return "X"
+  def winner (board)
+  index = []
+  index = won?(board)
+  if index == false
+    return nil
+  else
+    if board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
 end
+
