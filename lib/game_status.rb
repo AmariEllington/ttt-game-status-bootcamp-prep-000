@@ -25,6 +25,6 @@ if WIN_COMBINATIONS == [0,1,2],
 [0,4,8],
 [2,4,6]
 
-return != true 
+return != true
 
 end
