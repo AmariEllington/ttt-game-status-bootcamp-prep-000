@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won(board)
-  if WIN_COMBINATIONS != WIN_COMBINATIONS[0 +1]
+  if WIN_COMBINATIONS != WIN_COMBINATIONS[0] + 1
     return false
 
 end
