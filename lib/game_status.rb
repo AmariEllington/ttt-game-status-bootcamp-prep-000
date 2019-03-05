@@ -36,4 +36,5 @@ end
 
 def full?(board)
   WIN_COMBINATIONS.any?{|i| i == " "}
+  return != true
 end
