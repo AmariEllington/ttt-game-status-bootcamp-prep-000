@@ -39,4 +39,5 @@ def full?(board)
 end
 
 def draw?(board)
+  if board.each { |i| i == win_combo}
 end
